@@ -15,3 +15,5 @@ if __len:
 
         row_data = row_data[0: -r if r else len(row_data)]
         print(" ".join(row_data))
+else:
+    print(f"Invalid data: {__len}")
