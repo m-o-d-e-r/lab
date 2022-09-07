@@ -1,6 +1,6 @@
 __len: str = input("Enter len > ")
 
-__len = int(__len) if __len.isdigit() else ""
+__len = int(__len) if __len.isdigit() else 0
 if __len < 0:
     __len = 0
 
